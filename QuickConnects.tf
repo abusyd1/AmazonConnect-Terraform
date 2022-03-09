@@ -35,7 +35,7 @@ resource "aws_connect_quick_connect" "sayeed-test-2" {
     quick_connect_type = "USER"
 
     user_config {
-      contact_flow_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxx",
+      contact_flow_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxx"
       user_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
     }
   }
@@ -49,7 +49,7 @@ resource "aws_connect_quick_connect" "sayeed-test-3" {
     quick_connect_type = "QUEUE"
 
     queue_config {
-      contact_flow_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxx",
+      contact_flow_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxx"
       queue_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
     }
   }
